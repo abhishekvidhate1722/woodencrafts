@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color:#f9f4ef ;
+        }
+      .heading
+      {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:#020826 ;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 20px;
+        text-shadow: 2px 2px pink;
+      }
+      .p1{
+        font-size: 20px;
+        text-align: center;
+        padding-top: 20px;
+      }
+      .p2
+      {
+        font-size: 20px;
+        font-family:Arial, Helvetica, sans-serif ;
+        text-align: center;
+        padding-top: 10px;
+      }
+      .div1
+      {
+        height:600px;
+        width: 100%;
+        background-color:#f9f4ef;
+        background-image:url(./../images/livingroom.webp) ;
+        box-shadow: 10px 10px 30px 2px black;
+        background-size:1500px 800px ;
+        background-repeat: no-repeat;
+        margin-left:10px;
+        image-rendering:pixelated;
+      }
+      .card-container
+      {
+        height:400px;
+        width: 100%;
+        background-color:#fffffe;
+        display: flex;
+        justify-content: space-around;
+      }
+      .card{
+        height:350px;
+        width:280px;
+        background-color: #eaddcf;
+        border: 2px solid black;
+        margin: 20px;
+        border-radius: 0px 20px;
+        box-shadow: 5px 10px 10px 1px gray;
+    
+       }
+       .card_img
+       {
+       height:200px;
+       width: 100%;
+       image-rendering: pixelated;
+       border: 1px solid black;
+       border-radius: 0px 19px 0px 0px;
+       margin: 0px;
+
+       }
+       .card_p1
+       {
+        font-size: 22px;
+        text-align: center;
+        margin: 5px;
+        margin-bottom: 17px;
+        color:#020826;
+       }
+       .card_p2
+       {
+        font-size: 18px;
+        text-align: center;
+        margin: 5px;
+        margin-bottom: 17px;
+        color:#716040;
+       }
+
+
+
+       /*sofa css*/
+       h1{
+            text-align: center;
+            font-size: 30px;
+            margin: 0px;
+            color: #020826 ;
+            text-shadow: 2px 2px pink;
+        }
+        h2{
+            text-align: center;
+        }
+        .container
+        {
+        height:fit-content;
+        width: 90%;
+        background-color:#fffffe;
+        border-radius: 10px;
+        justify-content: center;
+        margin: 80px;
+        margin-top:0px ;
+        display:flex;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+        }
+
+        .card1{
+        height:320px;
+        width:250px;
+        background-color: #eaddcf;
+        border: 2px solid black;
+        margin:35px;
+        border-radius: 0px 0px 20px 20px;
+        box-shadow: 5px 10px 10px 1px gray;
+    
+       }
+       .card1:hover{
+        height:320px;
+        width:260px;
+        box-shadow: 20px 10px 10px 1px darkgray;
+        
+       }
+       .card_img1
+       {
+       height:130px;
+       width: 150px;
+       image-rendering: pixelated;
+       border: 1.5px solid black;
+       border-radius: 0px 0px 20px 20px;
+       display: block;
+       box-shadow:0px 2px 10px 2px gray;
+       margin: 30px auto;
+       cursor: pointer;
+    
+       
+       }
+       
+       .card_p
+       {
+        text-align: center;
+        font-size: 18px;
+        color:#716040;
+       }
+       .card_btn
+       {
+        height: 30px;
+        width: 100px;
+        border: 1.5px solid black;
+        border-radius: 8px;
+        margin-left: 12px;
+        font-size:14px;
+        background-color: #8c7851;
+        color: #fffffe;
+        box-shadow:0px 2px 10px 2px gray;
+       }
+       .card_btn:hover{
+        height: 33px;
+        font-size:16px ;
+        width: 103px;
+        color: #020826;
+       }
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+      <h1 class="heading">Living Room Ferniture..</h1>
+        <p class="p1">"Real Confort Visual & Physical Is Vital to Every Room"</p>
+    </div>
+    <p class="p2">Explore Our Most Popular And Trending Pieces</p>
+    <div class="card-container">
+        <div class="card">
+            <img  class="card_img"src="./../images/sofa_main.avif" alt="card sofa image">
+            <p class="card_p1"><b>Sofa</b></p>
+            <p class="card_p2">WoodenStreet Velvet Contemprory Sofa</p>
+           
+        </div>
+        <div class="card">
+            <img  class="card_img"src="./../images/living_chair.jpg" alt="card sofa image">
+            <p class="card_p1"><b>Chair</b></p>
+            <p class="card_p2">Handwoody Solid Sheesham Wood Arm Chair Set</p>
+            
+        </div>
+        <div class="card">
+            <img  class="card_img"src="./../images/living_teapot.jpg" alt="card sofa image">
+            <p class="card_p1"><b>Table</b></p>
+            <p class="card_p2">WoodenStreet™ Warren Sheesham Wood Coffee Table </p>
+            
+        </div>
+        <div class="card">
+            <img  class="card_img"src="./../images/living_rack.jpg" alt="card sofa image">
+            <p class="card_p1"><b>Racks</b></p>
+            <p class="card_p2">Wooden Wall Mount Floating Rack Shelves Wall Bracket </p>
+        </div>
+    </div>
+    
+
+
+      
+
+
+
+
+
+         <h1>SOFA..</h1>
+         
+    
+         <div class="container">
+             <div class="card1">
+                 <img class="card_img1"  src="./../images/sofa(1).jpg" alt="">
+                 <p class="card_p">Eleanor Wooden Sofa</p>
+     
+                 <p class="card_p"> <del>₹10,999</del>&nbsp; ₹6,999 </p>
+                 <button class="card_btn">Buy Now</button>
+                 <button class="card_btn">Add to Cart</button>
+     
+             </div >
+             <div class="card1">
+                 <img class="card_img1"  src="./../images/sofa(2).jpg" alt="">
+                 <p class="card_p">Colby Sofa (Saddle Tan)</p>
+                   <p class="card_p"> <del>₹24,999</del>&nbsp; ₹17,399 </p>
+                   <button class="card_btn">Buy Now</button>
+                 <button class="card_btn">Add to Cart</button>
+     
+                 
+     
+             </div >
+             <div class="card1">
+                 <img class="card_img1"  src="./../images/sofa(3).jpg" alt="">
+                 <p class="card_p">Elizabeth Fabric Sofa</p>
+                 <p class="card_p"> <del>₹14,999</del>&nbsp; ₹10,699 </p>
+                 <button class="card_btn">Buy Now</button>
+                 <button class="card_btn">Add to Cart</button>
+     
+     
+             </div >
+     
+             <div class="card1">
+                 <img class="card_img1"  src="./../images/sofa(4).jpg" alt="">
+                 <p class="card_p">Winchester Fabric Sofa</p>
+                 <p class="card_p"> <del>₹16,299</del>&nbsp; ₹14,799 </p>
+                 <button class="card_btn">Buy Now</button>
+                 <button class="card_btn">Add to Cart</button>
+     
+     
+             </div >
+            
+            
+          </div>
+     
+
+
+
+
+          <h1>CHAIRS..</h1>
+    
+    <div class="container">
+        <div class="card1">
+            <img class="card_img1"  src="./../images/chair(1).jpg" alt="">
+            <p class="card_p">Denver Lounge Chair in Teak</p>
+
+            <p class="card_p"> <del>₹2,999</del>&nbsp; ₹2,599 </p>
+            <button class="card_btn">Buy Now</button>
+            <button class="card_btn">Add to Cart</button>
+
+        </div >
+        <div class="card1">
+            <img class="card_img1"  src="./../images/chair(2).jpg" alt="">
+            <p class="card_p">Willow Fabric Accent Chair </p>
+              <p class="card_p"> <del>₹4,999</del>&nbsp; ₹3,399 </p>
+              <button class="card_btn">Buy Now</button>
+            <button class="card_btn">Add to Cart</button>
+
+            
+
+        </div >
+        <div class="card1">
+            <img class="card_img1"  src="./../images/chair(3).jpg" alt="">
+            <p class="card_p">Darel Fabric Accent Chair </p>
+            <p class="card_p"> <del>₹5,999</del>&nbsp; ₹4,699 </p>
+            <button class="card_btn">Buy Now</button>
+            <button class="card_btn">Add to Cart</button>
+
+
+        </div >
+
+        <div class="card1">
+            <img class="card_img1"  src="./../images/chair(4).jpg" alt="">
+            <p class="card_p">Brogen Fabric Accent Chair </p>
+            <p class="card_p"> <del>₹3,299</del>&nbsp; ₹2,699 </p>
+            <button class="card_btn">Buy Now</button>
+            <button class="card_btn">Add to Cart</button>
+
+
+        </div >
+        
+     </div>
+
+
+
+
+     <h1>TABLES..</h1>
+    
+     <div class="container">
+         <div class="card1">
+             <img class="card_img1"  src="./../images/table(1).jpg" alt="">
+             <p class="card_p">Tate Square Wood Coffee Table</p>
+ 
+             <p class="card_p"> <del>₹6,999</del>&nbsp; ₹4,599 </p>
+             <button class="card_btn">Buy Now</button>
+             <button class="card_btn">Add to Cart</button>
+ 
+         </div >
+         <div class="card1">
+             <img class="card_img1"  src="./../images/table(2).png" alt="">
+             <p class="card_p">Mika Solid Wood Console Table </p>
+               <p class="card_p"> <del>₹4,999</del>&nbsp; ₹3,399 </p>
+               <button class="card_btn">Buy Now</button>
+             <button class="card_btn">Add to Cart</button>
+ 
+             
+ 
+         </div >
+         <div class="card1">
+             <img class="card_img1"  src="./../images/table(3).jpg" alt="">
+             <p class="card_p">Beirut Solid Wood Bedside Table </p>
+             <p class="card_p"> <del>₹10,999</del>&nbsp; ₹9,699 </p>
+             <button class="card_btn">Buy Now</button>
+             <button class="card_btn">Add to Cart</button>
+ 
+ 
+         </div >
+ 
+         <div class="card1">
+             <img class="card_img1"  src="./../images/table(4).jpg" alt="">
+             <p class="card_p">Etha Solid Wood Side Table </p>
+             <p class="card_p"> <del>₹8,299</del>&nbsp; ₹6,799 </p>
+             <button class="card_btn">Buy Now</button>
+             <button class="card_btn">Add to Cart</button>
+ 
+ 
+         </div >
+         
+      </div>
+     
+
+      <h1>RACKES..</h1>
+    
+      <div class="container">
+          <div class="card1">
+              <img class="card_img1"  src="./../images/rack(1).jpg" alt="">
+              <p class="card_p">Enid Solid Wood Bookshelf </p>
+  
+              <p class="card_p"> <del>₹5,999</del>&nbsp; ₹4,599 </p>
+              <button class="card_btn">Buy Now</button>
+              <button class="card_btn">Add to Cart</button>
+  
+          </div >
+          <div class="card1">
+              <img class="card_img1"  src="./../images/rack(2).jpg" alt="">
+              <p class="card_p">Madden 14 Pair Shoe Rack  </p>
+                <p class="card_p"> <del>₹2,399</del>&nbsp; ₹1,899 </p>
+                <button class="card_btn">Buy Now</button>
+              <button class="card_btn">Add to Cart</button>
+  
+              
+  
+          </div >
+          <div class="card1">
+              <img class="card_img1"  src="./../images/rack(3).jpg" alt="">
+              <p class="card_p">Brown Solid Wood Wall Shelf </p>
+              <p class="card_p"> <del>₹2,499</del>&nbsp; ₹1,699 </p>
+              <button class="card_btn">Buy Now</button>
+              <button class="card_btn">Add to Cart</button>
+  
+  
+          </div >
+  
+          <div class="card1">
+              <img class="card_img1"  src="./../images/rack(4).jpg" alt="">
+              <p class="card_p">Brown Solid Wood Wall Shelf </p>
+              <p class="card_p"> <del>₹4,299</del>&nbsp; ₹3,799 </p>
+              <button class="card_btn">Buy Now</button>
+              <button class="card_btn">Add to Cart</button>
+  
+  
+          </div >
+          
+       </div>
+
+
+
+     
+             
+</body>
+</html>
