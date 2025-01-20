@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="slide-container">
+        <img src="./images/poster1.png" alt="image" class="slide" id="slide">
+        <img src="./images/previous.png" alt="previous-icon" class="ico-action ico-prev" onclick="prev()">
+        <img src="./images/next.png" alt="next-icon" class="ico-action ico-next" onclick="next()">
+    </div>
+
+    <script>
+        const images = ["./images/poster1.png", "./images/poster2.png", "./images/poster3.png", "./images/poster4.png"];
+        let index = 0;
+        const slide = document.getElementById('slide');
+
+        function next() {
+            if (index < images.length - 1) {
+                index++;
+            } else {
+                index = 0;
+            }
+
+            slide.src = images[index];
+        }
+
+        function prev() {
+            if (index > 0) {
+                index--;
+            } else {
+                index = images.length - 1;
+            }
+
+            slide.src = images[index];
+        }
+    </script>
+
+    
+    
+</body>
+</html>
